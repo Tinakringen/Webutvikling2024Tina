@@ -16,9 +16,30 @@
                     <input type="submit" value="søk">
                 </form>
             </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Hjem</a>
+                    </li>
+                    <li>
+                        <a href="validering.html" target="_blank">Valideringsoppgave</a>
+                    </li>
+                    <li>
+                        <a href="nettside.html">Nettside mal</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">Kontakt oss</a>
+                    </li>
+                    <li>
+                        <a href="registreringsskjema.html">Registrering</a>
+                    </li>
+                </ul>
+    
+            </nav>
         </header>
         <main>
             <section>
+                <form method="post">
                     <h2>Registrer deg</h2>
                         <label for="name">Navn:</label>
                         <input type="text" placeholder="Wiktor Winther.." id="name" maxlength="50" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
@@ -34,8 +55,7 @@
                         <label>Kjønn:</label>
                         <label for="radio">Dame</label>
                         <input type="radio" name="radio" id="radio" required>
-                        
-                        <label>Mann</label>
+                        <label for="radio">Mann</label>
                         <input type="radio" name="radio" required>
                         <label>Land:
                             <select name="land" required>
@@ -45,8 +65,7 @@
                             <option value="Danmark">Danmark</option>
                             </select>
                         </label>
-                        <label>
-                            Passord:
+                        <label>Passord:
                             <input type="password" id="password" name="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                         </label>
                         <label>
@@ -55,11 +74,11 @@
                         </label>
                         <input type="submit" value="Registrer deg">
                         
-    
-                <article>
-                    <h2>Kontakt oss</h2>
-                </article>
+                </form>
             </section>  
+            <article>
+                <h2>Kontakt oss</h2>
+            </article>
         </main>
     <footer>
     <p>&copy;2024 Tina Kringen</p>
