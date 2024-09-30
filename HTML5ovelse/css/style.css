@@ -1,0 +1,63 @@
+html{
+    font-size: 18px;
+}
+
+header{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: black;
+    font-size: 20px;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    padding: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(63, 62, 62);
+    color: white;
+    text-align: center;
+}
+
+main{
+    max-width: 70%;
+    min-width: 400px;
+    flex-wrap: wrap;
+    box-shadow: 6px;
+    flex-basis: content;
+}
+
+aside{
+    background-color: rgb(221, 242, 252);
+    text-align: left;
+    flex-direction: column;
+    padding: 10px;
+    min-width: 30%;
+    width: 30%;
+
+}
