@@ -1,5 +1,5 @@
 html{
-    font-size: 18px;
+    font-size: calc(1em + 1vw);
 }
 
 *{
@@ -11,6 +11,13 @@ body{
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1{font-size: 2rem;}
+h2{font-size: 1.8rem}
+h3{font-size: 1.6rem}
+h4{font-size: 1.4rem}
+p, a{font-size: 1rem}
+
 
 #grid-container{
     display: grid;
@@ -28,13 +35,22 @@ body{
 
 #banner{
     display:flex;
-    max-width: 100%;
     flex-wrap: wrap;
+    background-color: #efefef;
+    justify-content: space-between;
 
     img{
         max-width: 70%;
-
     }
+}
+
+#banner div{
+    width: 30%;
+    padding: 2rem;
+}
+
+#banner div h2{
+    font-size: 1rem;
 }
 
 main{
@@ -81,7 +97,7 @@ img{
     width: 100%;
     max-width: 250px;
     align-items: center;
-    margin: 0 auto;
+    margin: 0px auto;
     display: block;
 }
 
@@ -101,12 +117,12 @@ img{
     }
 }
 
-/*.flex-menu a{
+.flex-menu a{
     text-decoration: none;
     color: #000;
 
 }
-*/
+
 
 .flex-space-b{
     display: flex;
@@ -152,6 +168,8 @@ img{
         display: flex !important;
     }
 
+    h3{font-size: 1.2rem}
+    p, a{font-size: 0.6rem}
 }
 
 /*MOBIL*/
