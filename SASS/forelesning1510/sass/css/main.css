@@ -1,0 +1,29 @@
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  background-color: #fff;
+  padding: 3rem;
+  color: rgb(56, 56, 56);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+body {
+  background-color: rgb(65, 65, 172);
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */
