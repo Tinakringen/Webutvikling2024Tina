@@ -1,0 +1,19 @@
+.flex-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blurred-effect{
+    background-color: rgb(234, 217, 217);
+    backdrop-filter: blur(2px);
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem;
+    background-color: rgb(86, 86, 86);
+    text-decoration: none;
+    color: #fff;
+}
+

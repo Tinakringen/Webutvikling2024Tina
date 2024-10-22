@@ -1,0 +1,18 @@
+@mixin box($width, $height, $pad, $bradius){
+    width: $width;
+    height: $height;
+    pad: $pad;
+    border-radius: $bradius;
+}
+
+@mixin flexbox($direction, $wrap, $gap){
+    display: wrap;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+@mixin grid-placement($column, $row){
+    grid-column: #{$column};
+    grid-row: #{$row};
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kablammo&display=swap");
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blurred-effect {
+  background-color: rgb(234, 217, 217);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem;
+  background-color: rgb(86, 86, 86);
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Arima", Sans-serif;
+}
+
+.welcome-banner {
+  position: relative;
+}
+.welcome-banner header {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */
