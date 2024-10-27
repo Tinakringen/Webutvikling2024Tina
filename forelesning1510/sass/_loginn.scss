@@ -18,7 +18,7 @@ form{
             @include box(50px, 50px, 0.5rem, 100%);
             @extend .flex-container-center;
             display: flex !important;
-            width: 50px;
+            width: 70px;
             background-color: $black;
             color: $white;
         }
@@ -30,6 +30,6 @@ form{
 
     input{
         @include box(200px, auto, 1rem, 4px);
-        background-color: $black;
+        background-color: $white;
     }
 }
