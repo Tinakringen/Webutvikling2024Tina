@@ -1,54 +1,55 @@
 *{
     box-sizing: border-box;
 }
-
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
-
 header{
-    background-image: url(https://cdn.pixabay.com/photo/2013/11/28/10/04/sky-220033_1280.jpg);
+    background-image: url('https://cdn.pixabay.com/photo/2018/09/23/18/56/pumpkin-3698130_960_720.jpg');
+    padding: 7rem 3rem;
     background-size: cover;
     background-position: center;
-    color: #ffff;
-    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
     font-size: 30px;
-    padding: 7rem 3rem;
-    text-align: center;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 4rem;
-    padding: 0;
-    margin: 0;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+#main-menu{
     width: 100%;
-    gap: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    margin: 0 auto;
+    
+    ul{
+        display: flex;
+        list-style: none;
+        padding: 3rem;
+        margin: 0;
+        gap: 1rem;
+        flex-wrap: wrap;
 
-nav a {
-    text-decoration: none;
-    color:black;
-    padding: 1rem;
-}
+        li{
 
-nav a:hover {
-    text-decoration: underline;
-}
+            #active{
+                font-weight: 600;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+                
+            }
 
-footer {
-    background-color: rgb(63, 62, 62);
-    color: white;
-    text-align: center;
+            a:hover{
+                text-decoration: underline;
+            }
+
+     
+
+        }
+    }
 }
 
 main{
@@ -56,19 +57,56 @@ main{
     padding: 3rem;
     width: 70%;
     min-width: 400px;
-    flex-wrap: wrap;
-    box-shadow: 6px;
-    flex-basis: content;
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        article{
+            min-width: 300px;
+            padding: 3rem;
+            border-radius: 3px;
+            box-shadow: 10px 10px 10px #efefef;
+        }
+
+        h2{
+            width: 100%;
+        }
+    }
+}
+
+.black-btn{
+    display: inline-block;
+    padding: 2rem;
+    color: #fff;
+    background-color: #343434;
+    border: 1px solid #343434;
+    text-decoration: none;
+
+}
+.black-btn:hover{
+    background-color: #fff;
+    border: 1px solid #343434;
+    color: #000;
 }
 
 aside{
-    background-color: rgb(221, 242, 252);
-    text-align: left;
-    flex-direction: column;
-    padding: 10px;
-    min-width: 30%;
     width: 30%;
+    padding: 3rem;
+    min-width: 350px;
+}
+footer{
+    width: 100%;
+    background-color: #343434;
+    padding: 3rem;
+    color: #fff;
 
-
+    a{
+        color: #fff;
+    }
 }
 
+img{
+    width: 100%;
+}
